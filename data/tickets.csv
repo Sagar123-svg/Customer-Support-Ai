@@ -1,0 +1,10 @@
+text,label
+I cannot login to my account,Technical
+My payment failed but money deducted,Billing
+Where is my order,Shipping
+App is crashing after update,Technical
+I want refund for my purchase,Billing
+Delivery is delayed,Shipping
+Website not working properly,Technical
+I was charged twice,Billing
+My package has not arrived,Shipping

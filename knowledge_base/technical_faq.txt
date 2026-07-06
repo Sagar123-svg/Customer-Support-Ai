@@ -1,0 +1,5 @@
+If users cannot log in, they should reset their password.
+
+If the application crashes, users should update to the latest version.
+
+Technical issues can be reported through the support portal.

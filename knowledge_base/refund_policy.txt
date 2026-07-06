@@ -1,0 +1,5 @@
+Refunds are allowed within 30 days of purchase.
+
+After 30 days, refunds are not available.
+
+Customers must provide an order number for refund processing.
