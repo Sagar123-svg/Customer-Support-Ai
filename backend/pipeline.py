@@ -2,7 +2,7 @@ from backend.classifier import predict_ticket
 from backend.sentiment import analyze_sentiment
 from backend.rag import retrieve_document
 from backend.database import save_ticket
-
+from backend.llm import generate_llama_response
 
 def generate_response(ticket, category, sentiment, document):
 
@@ -40,12 +40,11 @@ def process_ticket(ticket):
     sentiment = analyze_sentiment(ticket)
 
     document = retrieve_document(category)
-    response = generate_response(
-        ticket,
-        category,
-        sentiment,
-        document
-    )
+    print("Calling Llama...")
+    response = generate_llama_response(
+    ticket,
+    document["content"]
+)
     
     save_ticket(
     ticket,
