@@ -190,7 +190,29 @@ Customer-Support-Ai
 ├── requirements.txt
 └── .gitignore
 ```
+# 📊 Dashboard Screenshots
 
+## Main Dashboard
+
+images/dashboard.png
+
+---
+
+## AI Generated Response
+
+!AI Response
+
+---
+
+## Ticket History
+
+images/ticket_history.png
+
+---
+
+## Analytics Dashboard
+
+images/analytics.png
 ---
 
 # 🛠️ Technology Stack
